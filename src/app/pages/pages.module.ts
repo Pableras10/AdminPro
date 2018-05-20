@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.route';
 import { IncrementadorComponent } from '../componentes/incrementador/incrementador.component';
 import { ChartsModule } from 'ng2-charts';
+import { GraficoDonaComponent } from '../componentes/grafico-dona/grafico-dona.component';
 
 @NgModule({
 
@@ -16,7 +17,8 @@ import { ChartsModule } from 'ng2-charts';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        IncrementadorComponent
+        IncrementadorComponent,
+        GraficoDonaComponent
     ],
     exports: [
         DashboardComponent,
