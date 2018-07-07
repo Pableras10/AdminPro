@@ -16,6 +16,7 @@ import { PagesModule } from './pages/pages.module';
 import { APP_ROUTES } from './app.routes';
 import { PagesComponent } from './pages/pages.component';
 import { FormsModule } from '@angular/forms';
+import { SettingsService } from './services/settings.service';
 
 
 
@@ -32,7 +33,7 @@ import { FormsModule } from '@angular/forms';
     PagesModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SettingsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
